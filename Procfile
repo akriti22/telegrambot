@@ -1,1 +1,1 @@
-worker: todobot.py
+worker: python todobot.py
