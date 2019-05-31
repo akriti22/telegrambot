@@ -31,3 +31,6 @@ class DBHelper:
         stmt = "SELECT description FROM items WHERE owner = (?)"
         args = (owner, )
         return [x[0] for x in self.conn.execute(stmt, args)]
+
+        
+
